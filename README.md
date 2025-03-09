@@ -15,6 +15,10 @@ For our last course assignment at Noroff, we were tasked with creating an update
 - Css frameworks project
 - Semester project 1
 
+## Live demo
+
+[Link to live demo](https://caagedal.netlify.app/)
+
 ## Built with
 
 - [React.js](https://reactjs.org/)
