@@ -8,9 +8,12 @@ This is my personal portfolio where I showcase some of my projects and a little 
 
 For our last course assignment at Noroff, we were tasked with creating an updated or new version of our portfolio including a few of our projects we've worked on through the year. The projects I have displayed are:
 
-- The project Exam (placeholder as I have a resit for it)
+- Project Exam 2 (placeholder as I have a resit for it)
 - Javascript frameworks project
-- The semester project (placeholder as I have a resit for it)
+- Semester project 2 (placeholder as I have a resit for it)
+- Project Exam 1
+- Css frameworks project
+- Semester project 1
 
 ## Built with
 
