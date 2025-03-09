@@ -21,8 +21,6 @@ For our last course assignment at Noroff, we were tasked with creating an update
 - [Tailwind](https://tailwindcss.com/)
 - [Vite](https://vite.dev/)
 
-## Getting started
-
 ### Installing
 
 1. clone the repo:
