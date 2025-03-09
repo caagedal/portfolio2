@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Tailwind 4 Theme Configuration */
+@theme {
+  --color-background: #080809;
+  --color-lightBg: #282828;
+  --color-teal: #26968F;
+  --color-border: #AAAAAA;
+  --font-poppins: "Poppins", system-ui, sans-serif;
+  --shadow-card: 0 0 20px 0px #26968F;
+  --shadow-image: 0 0 100px -42px #26968F;
+  --shadow-button: 0 0 10px 0px #26968F;
+  --shadow-glow: 0 0 15px #26968F;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-bounce-slow: bounce 3s infinite;
+  --animate-spin-slow: spin 8s linear infinite;
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-white;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 0 8px #26968F;
+  }
+
+  .gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #26968F, #4ade80);
+  }
+}
